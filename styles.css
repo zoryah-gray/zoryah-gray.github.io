@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -11,7 +12,7 @@
 body {
     line-height: 1.7em;
     color: #7f8c8d;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 h1,
@@ -21,7 +22,10 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    /* color: #34495e; */
+    color: #BA98D9;
+    font-family: "Yeseva One","Quicksand", cursive;
+    font-size: 30px;
 }
 
 .pure-img-responsive {
@@ -44,6 +48,15 @@ label {
 
 .is-center {
     text-align: center;
+}
+
+.is-top-of-page{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
 }
 
 
@@ -71,7 +84,8 @@ label {
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #1f8dd6;
+    /* background-color: #1f8dd6; */
+    background-color: #BA98D9;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
@@ -79,7 +93,8 @@ label {
 
 a.pure-button-primary {
     background: white;
-    color: #1f8dd6;
+    /* color: #1f8dd6; */
+    color: #BA98D9;
     border-radius: 5px;
     font-size: 120%;
 }
@@ -115,24 +130,36 @@ a.pure-button-primary {
     color: white;
 }
 
+.home-menu .pure-menu-selected a:hover,
+.home-menu .pure-menu-selected a:focus {
+    color: #EBE1F4;
+}
+
+.home-menu .pure-menu-selected a:active {
+    color: white;
+}
+
 .home-menu a {
-    color: #6FBEF3;
+    /* color: #6FBEF3; */
+    color:  #CBB0E2
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #AECFE5;
+    /* color: #AECFE5; */
+    color: #EBE1F4
 }
 
 
 /*
  * -- SPLASH STYLES --
- * This is the blue top section that appears on the page.
+ * This is the purple top section that appears on the page.
  */
 
 .splash-container {
-    background: #1f8dd6;
+    /* background: #1f8dd6; */
+    background: #BA98D9;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -201,6 +228,7 @@ a.pure-button-primary {
     margin: 2em 0 1em;
 }
 
+
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
     color: white;
@@ -208,7 +236,8 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1f8dd6;
+    /* color: #1f8dd6; */
+    color: #BA98D9;
 }
     .content-subhead i {
         margin-right: 7px;
