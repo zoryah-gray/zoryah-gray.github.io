@@ -4,8 +4,10 @@
             "img_src":"/images/sortieshepherd-holder-img.png",
             "desc":
             "You are the apprentice Shepherd of Springfield Farms. The head farmer has left to get more feed for the animals! But after they left, the neighborhood fox scared the animals out of their pens!  Before the head farmer returns, you have to get the animals back home! But be careful, if you're caught by the fox you'll lose time chasing it off.\nCONTROLS:\n\t Move with arrow or WASD keys\n\tPress G to pick up and drop animals (cannot pick up foxes - they bite!)",
-            "onclick_function": "window.location.href='game-destination-shepherd.html'"
+            "onclick_function" : "https://zoryah-gray.itch.io/shepard-sort-ie"
+            
           },
+          
     "2": {
             "title": "Father Time & Mother Nature Give Birth To A Bouncing Baby Boomer",
             "img_src":"/images/ftamn-game-start-image.png",
@@ -21,4 +23,6 @@
           }
     
   }
+
+  
   
