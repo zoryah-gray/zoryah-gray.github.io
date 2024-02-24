@@ -1,0 +1,24 @@
+{
+    "1": {
+            "title": "SORT-IE: Shepherd",
+            "img_src":"/images/sortieshepherd-holder-img.png",
+            "desc":
+            "You are the apprentice Shepherd of Springfield Farms. The head farmer has left to get more feed for the animals! But after they left, the neighborhood fox scared the animals out of their pens!  Before the head farmer returns, you have to get the animals back home! But be careful, if you're caught by the fox you'll lose time chasing it off.\nCONTROLS:\n\t Move with arrow or WASD keys\n\tPress G to pick up and drop animals (cannot pick up foxes - they bite!)",
+            "onclick_function": "window.location.href='game-destination-shepherd.html'"
+          },
+    "2": {
+            "title": "Father Time & Mother Nature Give Birth To A Bouncing Baby Boomer",
+            "img_src":"/images/ftamn-game-start-image.png",
+            "desc":"'Father Time and Mother Nature Give Birth to a Bouncing Baby Boomer' is a problem-solving narrative game about a baby “Boomer” and his complicated, ever changing relationship between household chores and his parents, Nature and Time. You play as “Boomer”, a young child to the wonderful parents of Father Time and Mother Nature. Father Time is a forward thinking man. He pushes forward, often forgetting the cost. Mother Nature is more subdued and present thinking, yet forgets nothing. Complete household chores and bonding activities alongside each of your parents. The more flowers you successfully plant and appliances you successfully fix, the closer you grow to them. Learn their views on life, each other, and of Boomer. However, to spend time with one is to disengage with the other, and not all is stable in Boomer’s household.",
+            "onclick_function": "window.location.href='game-destination-fmb.html'"
+          },
+    
+    "3": {
+            "title": "Willow: Life's Escape Game",
+            "img_src":"/images/willow-start-holder-image.png",
+            "desc":"*In Development*\n“Wailing Willow” is a narrative-based thriller/horror and mystery-themed puzzle-solving game. The game follows Willow, a young child imprisoned in her Aunt’s attic, as she embarks on a quest for survival. Despite enduring constant abuse, Willow finds solace in her weak and sickly older sister, Toma’s, embrace. As the days go by the children endure with no way to escape…or is there?",
+            "onclick_function": "window.location.href='game-destination-willow.html'"
+          }
+    
+  }
+  

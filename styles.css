@@ -356,9 +356,204 @@ p a.pure-button-primary {
  * On desktops and other large devices, we want to over-ride some
  * of the mobile and tablet styles.
  */
-@media (min-width: 78em) {
+ @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
         font-size: 300%;
     }
 }
+
+
+
+/* Game Page CSS */
+
+.game-content-wrapper {
+    position: absolute;
+    /* margin: 10px; */
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+
+}
+
+.game-gallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 0px;
+  /*   margin: 10% auto; */
+    
+    position: relative;
+  
+  }
+  
+  
+  .game-gallery{
+    width: 1000px;
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .game-gallery div{
+    display: grid;
+    grid-template-columns: 700px 700px 700px 700px 700px 700px 700px;
+    grid-template-rows: 450px;
+  /*   width: 900px; */
+  /*   width: 100vw; */
+  /*   grid-template-columns: auto auto auto auto; */
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+  }
+  
+  
+  
+  .game-gallery div img{
+    width: 100%;
+    height: 100%;
+  /*   filter: grayscale(100%); */
+    filter: grayscale(100%) sepia(12%) hue-rotate(245deg) brightness(90%);
+    
+    transition: transform 0.5s; 
+  }
+  
+  .game-gallery div img:hover{
+    filter: grayscale(0);
+  /*   filter: grayscale(100%) sepia(12%) hue-rotate(245deg) brightness(90%); */
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .game-gallery-wrap::before{
+    position: absolute;
+    content: "";
+    left: 13.65%;
+    top: 2;
+    z-index: 1;
+    height: 96%;
+    width: 150px;
+  }
+  
+  .game-gallery-wrap::after{
+    position: absolute;
+    content: "";
+    right: 13.65%;
+    top: 2;
+    z-index: 1;
+    height: 96%;
+    width: 150px;
+    
+  }
+  
+  #game-details-container{
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+  .game-details-card{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .game-text{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .game-desc-text{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18pt;
+  }
+
+  .game-img{
+    /* align-items: center;
+    justify-content: center; */
+    margin: 50px 20px;
+  }
+  
+  .game-button{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20pt;
+    text-align: center;
+    display: inline-block;
+      margin:5px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px ;
+  /*   padding: 10px 0 10px 10px ; */
+    background-color: #DDBDF1;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: #7B7BDA;
+    -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      -o-border-radius: 7px;
+      border-radius: 7px;
+    box-shadow: 0 .2em #8D8BE7; 
+    cursor: pointer;
+  }
+  
+  .game-button:active {
+      box-shadow: none;
+      position: relative;
+      top: .2em;
+  }
+  
+  .game-button:hover {
+      box-shadow: none;
+      position: relative;
+  /* 	top: .2em; */
+    transform: scale(1.1);
+  }
+  
+  .game-dest{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #leftArrow{
+    width: 50px;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 0px;
+    z-index: 10;
+  }
+  #rightArrow{
+    width: 50px;
+    cursor: pointer;
+    margin: 20px;
+    margin-right: 0px;
+    z-index: 10;
+  }
+
+  #resizing{
+  width: 500px;
+}
+#align-up{
+  text-align: center; 
+  align-self: flex-start;
+}
+
+.game-gallery::-webkit-scrollbar{
+  display:none;
+}
+
+
+
+
+
