@@ -60,10 +60,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
         body.classList.add('dark-mode');
         darkModeCheckbox.checked = true;
         darkModeCheckbox.setAttribute('aria-checked', 'true');
-        darkModeLabel.setAttribute('aria-checked', 'true');
+        // darkModeLabel.setAttribute('aria-checked', 'true');
     } else{
         darkModeCheckbox.setAttribute('aria-checked', 'false');
-        darkModeLabel.setAttribute('aria-checked', 'false');
+        // darkModeLabel.setAttribute('aria-checked', 'false');
     }
 
     darkModeCheckbox.addEventListener('change', () => {
@@ -71,12 +71,12 @@ document.addEventListener('DOMContentLoaded', (e) => {
             body.classList.add('dark-mode');
             localStorage.setItem('dark-mode', 'true');
             darkModeCheckbox.setAttribute('aria-checked', 'true');
-            darkModeLabel.setAttribute('aria-checked', 'true');
+            // darkModeLabel.setAttribute('aria-checked', 'true');
         } else {
             body.classList.remove('dark-mode');
             localStorage.setItem('dark-mode', 'false');
             darkModeCheckbox.setAttribute('aria-checked', 'false');
-            darkModeLabel.setAttribute('aria-checked', 'false');
+            // darkModeLabel.setAttribute('aria-checked', 'false');
         }
     });
 
