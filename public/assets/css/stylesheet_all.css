@@ -1429,11 +1429,6 @@ Display 1 Bold 3.75rem (60px)	Bold 3.125rem (50px)	Bold 1.875rem
     }
 }
 
-@media(max-width: 400px){
-    .head-content-container{
-        padding-top: 25rem;
-    }
-}
 
 @media(max-width: 390px){
     .header a{
@@ -1455,10 +1450,6 @@ Display 1 Bold 3.75rem (60px)	Bold 3.125rem (50px)	Bold 1.875rem
 
     .overlap .left.img{
         width: 70%;
-    }
-
-    .head-content-container{
-        padding-top: 35rem;
     }
 
     .head-content-container h3 a{
