@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zoryah Gray">
+    <meta name="description" content="This is a website designed to be an online personal portfolio for the front-end and SWE developer Zoryah Gray.">
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="../assets/css/stylesheet_all.css">
+    <link rel="stylesheet" href="../assets/css/stylesheet_resume.css">
+</head>
+<body>
+    <header id="top" aria-label="Site header with navigation">
+        <nav aria-label="Main navigation">
+            <a href="./index.html" id="home-logo" aria-label="Home">Zoryah Gray</a>
+        
+            
+            <ul class="nav-links">
+                <li><a href="./index.html" aria-label="Home">Home</a></li>
+                <li class="active-link"><a href="./resume.html" aria-label="Resume">Resume</a></li>
+                <li><a href="./portfolio.html" aria-label="Portfolio">Portfolio</a></li>
+                <li><a href="./contact.html" aria-label="Contact">Contact</a></li>
+            </ul>
+
+            <input type="checkbox" id="darkmode-toggle" class="darkmodeInput" aria-checked="false" aria-label="Toggle dark mode"/>
+            <label for="darkmode-toggle" class="darkmodeLabel" aria-checked="false" aria-label="Toggle dark mode">
+                <i class="fa-regular fa-sun dmSun"></i>
+                <i class="fa-regular fa-moon dmMoon"></i>
+            </label>
+
+            <div class="toggle-bar" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-navigation">
+                <i class="fa-solid fa-bars" aria-hidden="false"></i>
+            </div>
+            
+        </nav>
+
+        <div id="main-navigation" class="dropdown-menu" role="menu" aria-expanded="false">
+            <li><a href="./index.html" aria-label="Home">Home</a></li>
+            <li class="active-link"><a href="./resume.html" aria-label="Resume">Resume</a></li>
+            <li><a href="./portfolio.html" aria-label="Portfolio">Portfolio</a></li>
+            <li><a href="./contact.html" aria-label="Contact">Contact</a></li>
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="page-head-container">
+            <div class="head-content-container">
+                <h1>Resume</h1>
+                <div>
+                    <a href="#skills" class="button" aria-label="Skills">Skills</a>
+                    <a href="#exp" class="button" aria-label="Experience">Experience</a>
+                    <a href="#resume" class="button" aria-label="Resume">Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-scroll">
+
+            <!-- Skills section -->
+            <section class="section s1" id="skills">
+                <div class="centered">
+                    <h1>Skills</h1>
+                    <!-- Skill Category Section -->
+                    <section class="left-align staggered-box">
+                        <h2>Skill Category</h2>
+                        <div class="skill-box">
+                            <p class="skill-button">Skill</p>
+                            <p class="skill-button">Skill</p>
+                            <p class="skill-button">Skill</p>
+                            <p class="skill-button">Skill</p>
+                            <p class="skill-button">Skill Long</p>
+                            <p class="skill-button">Skill</p>
+                            <p class="skill-button">Skill</p>
+                            <p class="skill-button">Skill</p>
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="section s2" id="exp">
+                <div class="centered">
+                    <h1>Experience</h1>
+
+                    <!-- Experience/Position Sections -->
+                    <section class="left-align staggered-box s2">
+                        <h2>Position</h2>
+                        <div>
+                            <div class="position-sub-header">
+                                <h3>Location</h3>
+                                <h3><em>Month XXXX - Month XXXX</em></h3>
+                            </div>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section class="section s1" id="resume">
+                <div class="centered resume-cntred">
+                    <div class="same-line resume">
+                        <h1>Resume</h1>
+                        <a href="../assets/resources/zoryah_gray_resume_apr_2024.pdf.pdf" target="_blank" aria-label="Resume" download><ion-icon name="download-outline"></ion-icon></a>
+                    </div>
+                    <iframe src="../assets/resources/zoryah_gray_resume_apr_2024.pdf.pdf" class="resume-frame">
+                        Your browser does not support iframes, or the content failed to load. Please visit <a href="../assets/resources/zoryah_gray_resume_apr_2024.pdf.pdf" target="_blank" aria-label="Resume" download>this link</a> instead to open and download the PDF.
+                    </iframe>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- <aside class="right-side-nav">
+        <div class="arrow">
+            <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="content">
+            <a href="#skills" class="button" aria-label="Skills">Skills</a>
+            <a href="#exp" class="button" aria-label="Experience">Experience</a>
+            <a href="#resume" class="button" aria-label="Resume">Resume</a>
+        </div>
+    </aside> -->
+
+    <div id="navToTop">
+        <a href="#top" aria-label="To Top"><i class="fa-solid fa-circle-chevron-up"></i></a>
+    </div>
+    <footer>
+        <div class="inner-footer">
+            <div class="icons">
+                <a href="https://github.com/zoryah-gray" target="_blank" aria-label="Navigate to Github Profile"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/zoryah-gray-she-her-b74473259/" target="_blank" aria-label="Navigate to LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Zoryah Gray</p>
+            <p><a href="mailto:zoryahgray2025@u.northwestern.edu" aria-label="Email zoryahgray2025@u.northwestern.edu">zoryahgray2025@u.northwestern.edu</a></p>
+            <p><a href="../assets/resources/zoryah_gray_resume_apr_2024.pdf.pdf" target="_blank" aria-label="Link to Resume">Link To Resume</a></p>
+        </div>
+    </footer>
+
+
+
+    <script src="../assets/js/script_all.js"></script>
+    <script src="../assets/js/script_resume.js"></script>
+    <script src="https://kit.fontawesome.com/d3f4af9b0e.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

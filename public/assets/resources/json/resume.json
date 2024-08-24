@@ -1,0 +1,63 @@
+{
+    "Skills": {
+        "Programming and Development": [
+                "Python",
+                "JavaScript",
+                "C",
+                "C#",
+                "TypeScript",
+                "SQL",
+                "GitHub",
+                "Unity"
+        ],
+        "Web Development": [
+            "HTML",
+            "CSS",
+            "React",
+            "Node.js",
+            "Express.js",
+            "Full-stack Development",
+            "Front-End Development",
+            "Back-End Development"
+        ],
+        "Data Analysis": ["SQL", "Pandas"],
+        "Design and Creative Tools": ["Adobe Photoshop", "Canva", "Logo Creation"],
+        "Productivity and Management": ["Google Suites", "Excel", "Problem Solving", "Time Management"]
+    },
+    "Experience": {
+        "pos1" : {
+            "role": "Peer Mentor",
+            "location":"Computer Science Department, Northwestern University",
+            "date":"September 2022 - PRESENT",
+            "details": [
+            "Directly instructed 14 students in weekly tutorial sessions in foundational Python programming for the Intro to Computer Science Course to improve their comprehension and application of coding principles", 
+            "Provided bi-weekly Office Hours to over 300+ students with homework, coding, and lecture content questions.", 
+            "Participated in 2 comprehensive Computer Science Peer Mentor/Teaching Assistant Training Courses to enhance instructional abilities to lead and construct lessons for tutorial sessions for students more effectively"]
+        },
+        "pos2" : {
+            "role":"External President",
+            "location":"Rainbow Alliance",
+            "date":"March 2024 - PRESENT",
+            "details": [
+                "Coordinated closely with the Internal President in managing executive functions and attending the Student Advisory Board.",
+                "Led the planning and execution of annual events, including the Fall Speaker, Drag Show, Spring Speaker, and Queer Prom.",
+                "Oversaw and executed external program initiatives such as email communications, activism efforts both on and off-campus, organization of affinity spaces, and drafting official statements, building on expertise previously gained as Treasurer and Co-Publicity Chair."
+            ]
+        },
+        "pos3" : {
+            "role":"Software Development Intern",
+            "location":"Tunepad",
+            "date":"June 2024 - September 2024",
+            "details": ["Online Interactive using typescript for tunepads learn platform", "Contributed to tunepads open source repository"]
+        },
+        "pos4" : {
+            "role":"Student Intern Researcher ",
+            "location":"Argonne National Laboratory Technology Commercialization",
+            "date":"May 2023 - August 2023",
+            "details": [
+                "Conducted in-depth market research to analyze present and future trends, the competitive landscape, and potential commercialization opportunities for Aeternal Upcycling's technology to determine future market viability", 
+                "Showcased final research findings through a pitch presentation in front of 3 DOE commercialization experts and won <strong>first place</strong> for the presentation"
+            ]
+        }
+    }
+}

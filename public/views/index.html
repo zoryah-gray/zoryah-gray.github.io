@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zoryah Gray">
+    <meta name="description" content="This is a website designed to be an online personal portfolio for the front-end and SWE developer Zoryah Gray.">
+    
+    <meta name="color-scheme" content="dark light">
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../assets/css/stylesheet_all.css">
+</head>
+<body>
+    <header id="top" aria-label="Site header with navigation">
+        <nav aria-label="Main navigation">
+            <a href="./index.html" id="home-logo" aria-label="Home">Zoryah Gray</a>
+        
+            
+            <ul class="nav-links">
+                <li class="active-link"><a href="./index.html" aria-label="Home">Home</a></li>
+                <li><a href="./resume.html" aria-label="Resume">Resume</a></li>
+                <li><a href="./portfolio.html" aria-label="Portfolio">Portfolio</a></li>
+                <li><a href="./contact.html" aria-label="Contact">Contact</a></li>
+            </ul>
+
+            <input type="checkbox" id="darkmode-toggle" class="darkmodeInput" aria-checked="false" aria-label="Toggle dark mode"/>
+            <label for="darkmode-toggle" class="darkmodeLabel" aria-checked="false" aria-label="Toggle dark mode">
+                <i class="fa-regular fa-sun dmSun"></i>
+                <i class="fa-regular fa-moon dmMoon"></i>
+            </label>
+
+            <div class="toggle-bar" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-navigation">
+                <i class="fa-solid fa-bars" aria-hidden="false"></i>
+            </div>
+            
+        </nav>
+
+        <div id="main-navigation" class="dropdown-menu" role="menu" aria-expanded="false">
+            <li class="active-link"><a href="./index.html" aria-label="Home">Home</a></li>
+            <li><a href="./resume.html" aria-label="Resume">Resume</a></li>
+            <li><a href="./portfolio.html" aria-label="Portfolio">Portfolio</a></li>
+            <li><a href="./contact.html" aria-label="Contact">Contact</a></li>
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="page-head-container">
+            <div class="head-content-container">
+                <h2>Welcome to my Portfolio</h2>
+                <h1>Zoryah Gray</h1>
+                <h3>SWE | Front-End Developer</h3>
+            </div>
+        </div>
+        <section class="section s1 content-scroll">
+            <div class="centered">
+                <h1>About Me</h1>
+                <div class="overlap">
+                    <div class="left img staggered-box">
+                        <img src="../assets/img/head-index-min.jpg" alt="headshot picture of Zoryah Gray wearing a green button up">
+                    </div>
+                    <div class="right home staggered-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <div id="navToTop">
+        <a href="#top" aria-label="To Top"><i class="fa-solid fa-circle-chevron-up"></i></a>
+    </div>
+
+    <footer>
+        <div class="inner-footer">
+            <div class="icons">
+                <a href="https://github.com/zoryah-gray" target="_blank" aria-label="Navigate to Github Profile"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/zoryah-gray-she-her-b74473259/" target="_blank" aria-label="Navigate to LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Zoryah Gray</p>
+            <p><a href="mailto:zoryahgray2025@u.northwestern.edu" aria-label="Email zoryahgray2025@u.northwestern.edu">zoryahgray2025@u.northwestern.edu</a></p>
+            <p><a href="../assets/resources/zoryah_gray_resume_apr_2024.pdf.pdf" target="_blank" aria-label="Link to Resume">Link To Resume</a></p>
+        </div>
+    </footer>
+
+    
+    <!-- <section class="head-container">
+        <div class="section-head">
+            <h2>Welcome to my Portfolio</h2>
+            <h1>Zoryah Gray</h1>
+            <h3>SWE | Front-End Developer</h3>
+        </div>
+    </section>
+
+    <div class="content-scroll-wrapper">
+        <main>
+            <section class="section1">
+                <h1>About Me</h1>
+                <div class="overlap">
+                    <div class="left img staggered-box">
+                        <img src="../assets/img/head-index-min.jpg" alt="headshot picture of Zoryah Gray wearing a green button up">
+                    </div>
+                    <div class="right home staggered-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+            <footer>
+                <div class="inner-footer">
+                    <div class="icons">
+                        <a href="https://github.com/zoryah-gray" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/zoryah-gray-she-her-b74473259/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <p>Zoryah Gray</p>
+                    <p><a href="mailto:zoryahgray2025@u.northwestern.edu">zoryahgray2025@u.northwestern.edu</a></p>
+                    <p><a>Link To Resume</a></p>
+                </div>
+            </footer>
+        </div> -->
+
+        
+    <!-- </main> -->
+
+    <!-- <footer class="content-scroll-wrapper">
+        <div class="inner-footer">
+            <div class="icons">
+                <a href="https://github.com/zoryah-gray"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/zoryah-gray-she-her-b74473259/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Zoryah Gray</p>
+            <p><a href="mailto:zoryahgray2025@u.northwestern.edu">zoryahgray2025@u.northwestern.edu</a></p>
+            <p><a>Link To Resume</a></p>
+        </div>
+    </footer> -->
+
+    <script src="../assets/js/script_all.js"></script>
+    <script src="https://kit.fontawesome.com/d3f4af9b0e.js" crossorigin="anonymous"></script>
+</body>
+</html>

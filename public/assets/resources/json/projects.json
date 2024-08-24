@@ -1,0 +1,49 @@
+{
+    "proj1" : {
+        "project_name":"test project 1",
+        "img":"../assets/img/placeholder-small.png",
+        "alt":"alt text",
+        "skills": [
+            "Python",
+            "HTML",
+            "CSS",
+            "Js"
+        ],
+        "desc":"a test project with a small img placeholder",
+        "project_link": "https://www.youtube.com/watch?v=huB67xaX47A"
+    },
+    "proj2" : {
+        "project_name":"Gru 2",
+        "id": "osc",
+        "img":"../assets/img/placeholder-wide.png",
+        "alt":"alt text",
+        "skills": [
+            "Node.js",
+            "React",
+            "Js"
+        ],
+        "desc":"a too gru to go grew a grumpy grabbing green grapes in the gloomy garden",
+        "project_link": "https://www.youtube.com/watch?v=7S-HpU-0T0Y"
+    },
+    "proj3" : {
+        "project_name":"project name",
+        "img":"../assets/img/placeholder-small.png",
+        "alt":"alt text",
+        "skills": [
+            ""
+        ],
+        "desc":"",
+        "project_link": ""
+    },
+    "proj4" : {
+        "project_name":"project name",
+        "img":"../assets/img/placeholder-small.png",
+        "alt":"alt text",
+        "skills": [
+            ""
+        ],
+        "desc":"",
+        "project_link": ""
+    }
+    
+}
