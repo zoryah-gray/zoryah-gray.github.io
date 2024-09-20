@@ -1,6 +1,7 @@
 {
     "proj1" : {
         "project_name":"Photo Diary",
+        "id": "webdev",
         "img":"./public/assets/img/photodiary_preview.png",
         "alt":"a preview image for the website photo diary",
         "skills": [
@@ -13,7 +14,7 @@
         "desc":"Photo Diary is an online photo library designed to store and organize photos along with unique messages. Users can upload images, add personalized captions, and set a schedule for when their photos and messages will automatically repeat, providing a dynamic way to relive and share memories over time.",
         "project_link": "https://webappphotodiary-negvque3dq-uc.a.run.app/"
     },
-    "proj3" : {
+    "proj2" : {
         "project_name":"Tunepad Arpeggio Interactive",
         "img":"./public/assets/img/arp.png",
         "id": "osc",
@@ -27,19 +28,35 @@
         "desc":"Arpeggion Interactive is a current project for the learn.tunepad (Open Source) repository, developed during my time as an intern and lab memember at Tunepad. The interactive teaches how simple and complex arpeggios are created and replicated within Tunepad.",
         "project_link": "./construction.html"
     },
-    "proj4" : {
-        "project_name":"project name",
-        "img":"./public/assets/img/placeholder-small.png",
-        "alt":"alt text",
+    "proj3" : {
+        "project_name":"Paint Interactive",
+        "img":"./public/assets/img/paintp5.png",
+        "id": "academ",
+        "alt":"a preview image of a paint application",
         "skills": [
-            ""
+            "HTML",
+            "CSS",
+            "p5.js"
         ],
-        "desc":"",
-        "project_link": ""
+        "desc":"This project was made in a Generatives Method class and attempts to recreate the drawing on canvas effect that popular applications such as Microsoft Paint, KidPix!, and Adobe accomplish through the use of P5, a popular javascript library.",
+        "project_link": "https://zoryah-a3-drawing-tools.glitch.me"
     },
-    "proj2" : {
+    "proj4" : {
+        "project_name":"Parametric Spaces",
+        "img":"./public/assets/img/paramp5.png",
+        "id": "academ",
+        "alt":"a preview image of a website creating parametric generators",
+        "skills": [
+            "HTML",
+            "CSS",
+            "p5.js"
+        ],
+        "desc":"This project was made in a Generatives Method class and features four parametric generators that creates unique art using parameter controls. ",
+        "project_link": "https://zoryah-327-a5-parametric.glitch.me"
+    },
+    "proj5" : {
         "project_name":"Shepherd Sort-Ie",
-        "id": "osc",
+        "id": "gamedev",
         "img":"./public/assets/img/shepherd_pre.png",
         "alt":"a preview of the Unity game Shepherd Sort-Ie",
         "skills": [
@@ -49,7 +66,7 @@
         "desc":"Shepherd Sort-ie is a Unity mini game where players play as a shepherd gathering their escaped animals. It was created using the Unity Engine and C#.",
         "project_link": "https://zoryah-gray.itch.io/shepard-sort-ie"
     },
-    "proj5" : {
+    "proj6" : {
         "project_name":"Twined_Delivery",
         "id": "gamedev",
         "img":"./public/assets/img/twined_delivery.png",
