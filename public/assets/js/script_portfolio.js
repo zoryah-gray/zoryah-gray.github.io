@@ -79,7 +79,7 @@ function showOverlay(){
 async function loadProjects(){
     const overlay = document.getElementById('project-overlay');
     const projectsDiv = document.getElementById('projects');
-    fetch("../assets/resources/json/projects.json")
+    fetch("/public/assets/resources/json/projects.json")
     .then(response => response.json())
     .then(data => {
         for (const entryKey in data) {

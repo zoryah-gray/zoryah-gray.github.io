@@ -45,10 +45,13 @@
             ]
         },
         "pos3" : {
-            "role":"Software Development Intern",
+            "role":"Software Development And Curriculum Intern",
             "location":"Tunepad",
             "date":"June 2024 - September 2024",
-            "details": ["Online Interactive using typescript for tunepads learn platform", "Contributed to tunepads open source repository"]
+            "details": [
+                "learn.tunepad (Open Source): Developed an arpeggio interactive using TypeScript, enhancing the selection of learning tools",
+                "Taught coding basics to a camp of 35+ k-12 students, guiding them in creating their own Tunepad projects."
+            ]
         },
         "pos4" : {
             "role":"Student Intern Researcher ",

@@ -111,6 +111,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     const navToType = document.getElementById('navToTop');
     window.addEventListener("scroll", () => {
         const distance = window.scrollY;
+        console.log(distance);
         if (distance > pageHeadHeight){
             navToType.classList.add('show');
         } else {

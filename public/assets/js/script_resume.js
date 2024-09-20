@@ -33,7 +33,7 @@ window.addEventListener("scroll", () => {
 });
 
 async function loadPageContents(){
-    fetch("../assets/resources/json/resume.json")
+    fetch("/public/assets/resources/json/resume.json")
     .then(response => response.json())
     .then(data => {
         // get in-page locations

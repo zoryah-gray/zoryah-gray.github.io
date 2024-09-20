@@ -1,49 +1,65 @@
 {
     "proj1" : {
-        "project_name":"test project 1",
-        "img":"../assets/img/placeholder-small.png",
-        "alt":"alt text",
+        "project_name":"Photo Diary",
+        "img":"./public/assets/img/photodiary_preview.png",
+        "alt":"a preview image for the website photo diary",
         "skills": [
-            "Python",
             "HTML",
             "CSS",
-            "Js"
+            "Js",
+            "Node",
+            "SQL"
         ],
-        "desc":"a test project with a small img placeholder",
-        "project_link": "https://www.youtube.com/watch?v=huB67xaX47A"
-    },
-    "proj2" : {
-        "project_name":"Gru 2",
-        "id": "osc",
-        "img":"../assets/img/placeholder-wide.png",
-        "alt":"alt text",
-        "skills": [
-            "Node.js",
-            "React",
-            "Js"
-        ],
-        "desc":"a too gru to go grew a grumpy grabbing green grapes in the gloomy garden",
-        "project_link": "https://www.youtube.com/watch?v=7S-HpU-0T0Y"
+        "desc":"Photo Diary is an online photo library designed to store and organize photos along with unique messages. Users can upload images, add personalized captions, and set a schedule for when their photos and messages will automatically repeat, providing a dynamic way to relive and share memories over time.",
+        "project_link": "https://webappphotodiary-negvque3dq-uc.a.run.app/"
     },
     "proj3" : {
-        "project_name":"project name",
-        "img":"../assets/img/placeholder-small.png",
-        "alt":"alt text",
+        "project_name":"Tunepad Arpeggio Interactive",
+        "img":"./public/assets/img/arp.png",
+        "id": "osc",
+        "alt":"a preview of the arpeggio interactive for the learn.tunepad platform",
         "skills": [
-            ""
+            "Typescript",
+            "HTML",
+            "CSS",
+            "Rollup"
         ],
-        "desc":"",
-        "project_link": ""
+        "desc":"Arpeggion Interactive is a current project for the learn.tunepad (Open Source) repository, developed during my time as an intern and lab memember at Tunepad. The interactive teaches how simple and complex arpeggios are created and replicated within Tunepad.",
+        "project_link": "./construction.html"
     },
     "proj4" : {
         "project_name":"project name",
-        "img":"../assets/img/placeholder-small.png",
+        "img":"./public/assets/img/placeholder-small.png",
         "alt":"alt text",
         "skills": [
             ""
         ],
         "desc":"",
         "project_link": ""
+    },
+    "proj2" : {
+        "project_name":"Shepherd Sort-Ie",
+        "id": "osc",
+        "img":"./public/assets/img/shepherd_pre.png",
+        "alt":"a preview of the Unity game Shepherd Sort-Ie",
+        "skills": [
+            "C#",
+            "Unity"
+        ],
+        "desc":"Shepherd Sort-ie is a Unity mini game where players play as a shepherd gathering their escaped animals. It was created using the Unity Engine and C#.",
+        "project_link": "https://zoryah-gray.itch.io/shepard-sort-ie"
+    },
+    "proj5" : {
+        "project_name":"Twined_Delivery",
+        "id": "gamedev",
+        "img":"./public/assets/img/twined_delivery.png",
+        "alt":"a preview of the Unity game Twined_Delivery",
+        "skills": [
+            "C#",
+            "Unity"
+        ],
+        "desc":"Twined_Delivery is a Unity game where players play as a cafe owner who just moved to a new town and they must now take food orders from townspeople and make their special dishes. This game was created using the Unity Engine and C#.",
+        "project_link": "https://zoryah-gray.itch.io/twined-delivery"
     }
     
 }
