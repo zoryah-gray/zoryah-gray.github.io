@@ -22,7 +22,8 @@
         ],
         "Data Analysis": ["SQL", "Pandas"],
         "Design and Creative Tools": ["Adobe Photoshop", "Canva", "Logo Creation"],
-        "Productivity and Management": ["Google Suites", "Excel", "Problem Solving", "Time Management"]
+        "Productivity and Management": ["Google Suites", "Excel", "Problem Solving", "Time Management"],
+        "Relevant CourseWork": ["Data Structures & Algorithms", "Operating Systems", "Web Development", "Intro to Computer Systems","Game Design and Development","Embedded Systems", "Single/Multivariable Differential Calculus"]
     },
     "Experience": {
         "pos1" : {
